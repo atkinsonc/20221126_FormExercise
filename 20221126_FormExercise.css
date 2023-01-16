@@ -1,0 +1,91 @@
+* {
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #274471;
+}
+
+.container {
+  width: 400px;
+  align-items: center;
+  background-color: rgb(243, 243,
+  243);
+  border-radius: 6px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#contactForm {
+  padding: 25px;
+}
+
+#firstName {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 0px;
+  margin-right: 0px;
+  border: none;
+}
+
+#surname {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 0px;
+  margin-right: 0px;
+  border: none;
+}
+
+#email {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 0px;
+  margin-right: 0px;
+  border: none;
+}
+
+#message {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 0px;
+  margin-right: 0px;
+  border: none;
+}
+
+input[type=submit] {
+  color: white;
+  background-color: #1ac0f3;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+}
+
+input[type=text]:hover {
+  color:blue;
+}
